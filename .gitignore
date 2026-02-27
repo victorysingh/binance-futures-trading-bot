@@ -1,0 +1,15 @@
+# Environment
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs
+bot/logs/*.log
+
+# Unrelated datasets (remove noise from submission)
+fear_greed_index.csv
+historical_data.csv
